@@ -16,7 +16,8 @@ class Instructor::CoursesController < ApplicationController
   end
 
   def show
-    @photo = Photo.new
+   @section = Section.new   
+   @lesson = Lesson.new 
   end
 
   private

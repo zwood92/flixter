@@ -3,11 +3,11 @@
 <div class="booyah-box col-10 offset-1">
   <h1><%= @course.title %></h1>
   <br />
-<% @course.photos.each do |photo| %>
+<%# <% @course.images.each do |image| %> 
   <div class= "col-12 col-sm-6">
-    <%= image_tag (current_course.image.url), class: 'img-fluid' %>
+    <%= image_tag @course.image.to_s, class: 'img-fluid' %>
   </div>
-  <% end %>
+  <%# <% end %> 
   <br />
   <div class="row">
     <div class="col-sm-4 col-12">
