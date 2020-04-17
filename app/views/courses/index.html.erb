@@ -9,9 +9,12 @@
       <%= link_to course.title, course_path(course) %>
     </h2>
     <br />
+    <br />
     <div class="row">
       <div class="col-sm-8 col-12">
         <%= course.description %>
+        <br />
+        <%= image_tag course.photos.image , class: 'img-fluid' %>
       </div>
       <div class="col-sm-4 col-12 text-center">
         <%= link_to 'More details...', course_path(course), class: 'btn btn-primary btn-large' %>
