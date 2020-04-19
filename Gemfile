@@ -27,6 +27,7 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
@@ -70,3 +71,5 @@ end
 gem 'simple_form'
 gem 'devise'
 gem 'carrierwave', '~> 2.0'
+gem "figaro"
+gem "fog-aws", '~> 3.5.2'
