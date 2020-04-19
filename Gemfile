@@ -73,3 +73,4 @@ gem 'devise'
 gem 'carrierwave', '~> 2.0'
 gem "figaro"
 gem "fog-aws", '~> 3.5.2'
+gem "mini_magick"
